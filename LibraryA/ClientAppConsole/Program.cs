@@ -1,0 +1,11 @@
+﻿using LibraryA;
+Book book =new Book();
+book.Title = "Atomic Habits";
+book.Author = "Harper lee";
+book.BookPrice = 250;
+book.DateOfPublish = new DateTime(1995, 06, 01);
+book.BookmarkPage(125);
+Console.WriteLine(book.GetCurrentPage());
+Calculator calculator = new Calculator();
+int addResult = calculator.Add(28, 78);
+Console.WriteLine(addResult);
